@@ -135,8 +135,8 @@ GameObject:
   - component: {fileID: 79393416}
   m_Layer: 0
   m_Name: SpawnManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_TagString: Spawn Manager
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -290,7 +290,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: f8abbdd178867d2419ba9feb6ff2cba0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -1
+      value: -2.8
       objectReference: {fileID: 0}
     - target: {fileID: 400046, guid: f8abbdd178867d2419ba9feb6ff2cba0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -685,8 +685,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3d744618d8374b34eb52119243820bc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  verticalInput: 0
   horizontalInput: 0
-  speed: 25
+  speed: 20
   xRange: 20
   projectilePrefab: {fileID: 785559283676595698, guid: e77994b471b76f645b8e0b5e95c902a2, type: 3}
 --- !u!1 &1590138454
