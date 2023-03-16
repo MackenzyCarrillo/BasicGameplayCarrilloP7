@@ -5,10 +5,11 @@ using UnityEngine;
 public class PlayerControllerX : MonoBehaviour
 {
     public GameObject dogPrefab;
-    
+    private float startDelay = 0.5f;
+    private float spawnInterval = 2;
     void Start()
     {
-        
+        InvokeRepeating("Update", startDelay, spawnInterval);
     }
 
 
